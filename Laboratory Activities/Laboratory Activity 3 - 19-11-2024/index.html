@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter Deluxe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Word & Sentence Analyzer</h1>
+        <p class="description">Type or paste your text below, and we'll count the words and sentences for you in real-time!</p>
+
+        <textarea id="textInput" placeholder="Start typing your text here..."></textarea>
+
+        <div class="counter">
+            <div id="wordcount" class="count-box">
+                <span class="count-title">Words:</span>
+                <span class="count-number">0</span>
+            </div>
+            <div id="sentenceCount" class="count-box">
+                <span class="count-title">Sentences:</span>
+                <span class="count-number">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
